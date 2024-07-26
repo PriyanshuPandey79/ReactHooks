@@ -11,19 +11,33 @@ function UseStateHookExample() {
     <>
     <div className='content'>
 
-    <div className='heading2'>
+    <div className='heading'>
     UseStateHook Example
     </div>
 
 
     <input className='input' 
-    placeholder='Enter a value'
+    placeholder='Write something here ...'
     onChange={(e)=>useStateUseCase(e)} 
     />
     <br/>
     {inputValue}
     </div>
     
+
+
+    <hr/>
+    <hr/>
+    <hr/>
+    <hr/>
+    <hr/>
+    <hr/>
+    <hr/>
+    <hr/>
+    <hr/>
+    <hr/>
+    <hr/>
+    <hr/>
     </>
   )
 }

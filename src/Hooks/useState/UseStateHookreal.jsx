@@ -46,14 +46,7 @@ function UseStateHookreal() {
         count: {count}
         </p>
 
-        <hr/>
-        <hr/>
-        <hr/>
-        <hr/>
-        <hr/>
-        <hr/>
-        <hr/>
-        <hr/>
+       
     
     </>
   )

@@ -35,6 +35,23 @@
     border-radius: 20px;
 }
 
+.btn{
+    background-color: rgb(3, 3, 125);
+    padding: 10px;
+    font-weight: 300;
+    color: azure;
+    margin: 10px;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: rgb(254, 251, 251);
+    padding: 10px;
+    font-weight: 300;
+    color: rgb(3, 4, 46);
+    margin: 10px;
+    border-radius: 20px;
+}
+
 .heading{
     align-content: center;
     text-align: center;
