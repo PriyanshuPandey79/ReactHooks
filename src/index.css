@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.increment{
+    background-color: green;
+    padding: 10px;
+    font-weight: 300;
+    color: azure;
+    margin: 10px;
+    border-radius: 20px;
+}
+.increment:hover{
+    background-color: rgb(128, 191, 128);
+    padding: 10px;
+    font-weight: 300;
+    color: rgb(4, 47, 9);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.decrement{
+    background-color: red;
+    padding: 10px;
+    font-weight: 300;
+    color: azure;
+    margin: 10px;
+    border-radius: 20px;
+}
+.decrement:hover{
+    background-color: rgb(168, 151, 151);
+    padding: 10px;
+    font-weight: 300;
+    color: rgb(72, 4, 4);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.heading{
+    align-content: center;
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgb(94, 94, 212);
+    color: white;
+    font-weight: 800;
+}
+
+.heading2{
+    align-content: center;
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgb(212, 94, 94);
+    color: white;
+    font-weight: 800;
+}
+
+.content{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.input{
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 6px;
+    border-radius: 20px;
+    margin: 10px;
+}
