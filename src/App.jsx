@@ -1,29 +1,20 @@
-import UseReducer from "./Hooks/useReducer/UseReducer.jsx";
-import UseReducerHook from "./Hooks/useReducer/useReducerHook.jsx";
-
-import UseStateHook from "./Hooks/useState/UseStateHook.jsx";
-import UseStateHookExample from "./Hooks/useState/UseStateHookExample.jsx";
-import UseStateHookreal from "./Hooks/useState/UseStateHookreal.jsx";
-
+import React from 'react';
+import { Link, Outlet } from 'react-router-dom';
 
 function App() {
-  let count =0 ;
   return (
     <>
-    <h1 className="text-2xl font-bold text-center">useState Hook</h1>
-    <UseStateHook/>
-    <hr/>
-    <UseStateHookreal/>
-    <UseStateHookExample/>
-
-    <div>
-    <h1 className="text-2xl font-bold text-center">useReducer Hook</h1>
-    <UseReducer/>
-    <hr/>
-    <UseReducerHook/>
-    </div>
+      <ul className='flex space-x-12'>
+        <li><Link to='/useState'>useState</Link></li>
+        <li><Link to='/useReducer'>useReducer</Link></li>
+        <li><Link to='/useEffect'>useEffect</Link></li>
+        <li><Link to='/useRef'>useRef</Link></li>
+      </ul>
+      <Outlet />
+      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+ 
