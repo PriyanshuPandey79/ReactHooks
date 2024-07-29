@@ -10,6 +10,7 @@ import UseReducer from './Hooks/useReducer/UseReducer.jsx'
 import UseEffect from './Hooks/useEffect/UseEffect.jsx'
 import UseStateLanding from './Hooks/useState/UseStateLanding.jsx'
 import UseRef from './Hooks/useRef/UseRef.jsx'
+import UseLayoutEffect from './Hooks/useLayoutEffect/UseLayoutEffect.jsx'
 
 const reactRouter=createBrowserRouter(
   createRoutesFromElements(
@@ -25,6 +26,7 @@ const reactRouter=createBrowserRouter(
     <Route element={<UseReducer/>} path='/useReducer' />
     <Route element={<UseEffect/>} path='/useEffect' />
     <Route element={<UseRef/>} path='/useRef' />
+    <Route element={<UseLayoutEffect/>} path='/useLayoutEffect' />
   </Route>
   )
 );

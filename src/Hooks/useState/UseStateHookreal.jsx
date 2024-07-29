@@ -1,4 +1,6 @@
-import React,{useState} from 'react'
+import React,{useState} from 'react';
+import withoutUseState01 from "../../assets/withUseState01.png";
+import withoutUseState02 from "../../assets/withUseState02.png";
 
 function UseStateHookreal() {
   
@@ -46,7 +48,10 @@ function UseStateHookreal() {
         count: {count}
         </p>
 
-       
+    <div className='flex justify-evenly p-10'>
+    <img src={withoutUseState01}/>
+    <img src={withoutUseState02} className='h-96'/>
+    </div>
     
     </>
   )

@@ -1,4 +1,6 @@
 import React from 'react'
+import withoutUseState01 from "../../assets/withoutUseState01.png";
+import withoutUseState02 from "../../assets/withoutUseState02.png";
 
 function UseStateHook() {
     
@@ -56,7 +58,11 @@ function UseStateHook() {
         {count}
         </p>
     <hr/>
-
+    <div className='flex justify-evenly p-10'>
+    <img src={withoutUseState01}/>
+    <img src={withoutUseState02} className='h-96'/>
+    </div>
+    
     
     
     </>
